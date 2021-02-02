@@ -45,8 +45,9 @@ unsigned char arr[] = {0b01111110, 0b00110000, 0b01101101, 0b01111001, 0b0011001
                        0b01011011, 0b01011111, 0b01110000, 0b01111111, 0b01111011
                       };
 
-
-const int delay_time = 10;
+/* delay time means the instance of time that the number display */
+/* if delay time is 1000, it means each number will be displayed in 1 second */
+const int delay_time = 25;  /* here I set it equals to 25 ms */ 
 
 
 void all_off()
