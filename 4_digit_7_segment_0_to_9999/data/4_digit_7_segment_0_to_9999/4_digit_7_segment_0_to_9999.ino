@@ -47,7 +47,7 @@ unsigned char arr[] = {0b01111110, 0b00110000, 0b01101101, 0b01111001, 0b0011001
 
 /* delay time means the instance of time that the number display */
 /* if delay time is 1000, it means each number will be displayed in 1 second */
-const int delay_time = 25;  /* here I set it equals to 25 ms */ 
+const int delay_time = 10;  /* here I set it equals to 25 ms */
 
 
 void all_off()
@@ -56,6 +56,15 @@ void all_off()
   digitalWrite(D2, HIGH);
   digitalWrite(D3, HIGH);
   digitalWrite(D4, HIGH);
+
+  digitalWrite(A, LOW);
+  digitalWrite(B, LOW);
+  digitalWrite(C, LOW);
+  digitalWrite(D, LOW);
+  digitalWrite(E, LOW);
+  digitalWrite(F, LOW);
+  digitalWrite(G, LOW);
+  digitalWrite(DP, LOW);
 }
 
 

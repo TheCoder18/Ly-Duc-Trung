@@ -108,7 +108,7 @@ unsigned char arr[] = {0b01111110, 0b00110000, 0b01101101, 0b01111001, 0b0011001
 
 /* delay time means the instance of time that the number display */
 /* if delay time is 1000, it means each number will be displayed in 1 second */
-const int delay_time = 25; /* here I set it equals to 25 ms */ 
+const int delay_time = 25; /* here I set it equals to 10 ms */ 
 
 
 void all_off()
@@ -117,6 +117,15 @@ void all_off()
   digitalWrite(D2, HIGH);
   digitalWrite(D3, HIGH);
   digitalWrite(D4, HIGH);
+
+  digitalWrite(A, LOW);
+  digitalWrite(B, LOW);
+  digitalWrite(C, LOW);
+  digitalWrite(D, LOW);
+  digitalWrite(E, LOW);
+  digitalWrite(F, LOW);
+  digitalWrite(G, LOW);
+  digitalWrite(DP, LOW);
 }
 
 
@@ -209,9 +218,9 @@ void loop()
 
 <br>
 
-[![Result](data/result.png)][3]
+[![Result](data/result.jpg)][3]
 
-[3]: https://f4-zvc.zdn.vn/00e117cc701a9944c00b/8008898579269127505
+[3]: https://f10-zvc.zdn.vn/babe93964c40a51efc51/800028327228144420 "Result Video"
 
 
 <br>
