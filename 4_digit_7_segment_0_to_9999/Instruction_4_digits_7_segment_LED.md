@@ -218,6 +218,8 @@ void loop()
 
 <br>
 
+Click into the figure to download the video.
+
 [![Result](data/result.jpg)][3]
 
 [3]: https://f10-zvc.zdn.vn/babe93964c40a51efc51/800028327228144420 "Result Video"
