@@ -49,10 +49,10 @@ Before going further, I highly recommend that you should watch this video to und
 |      7      	|       F       	|    10   	|                              	|
 |      8      	|       G       	|    5    	|                              	|
 |  ========== 	|  ============ 	|  ====== 	|  =========================== 	|
-|      10     	|       D1      	|    6    	| In series with 1 kΩ resistor 	|
+|      10     	|       D1      	|    12   	| In series with 1 kΩ resistor 	|
 |      11     	|       D2      	|    8    	| In series with 1 kΩ resistor 	|
-|      12     	|       D3      	|    9    	| In series with 1 kΩ resistor 	|
-|      13     	|       D4      	|    12    	| In series with 1 kΩ resistor 	|
+|      12     	|       D3      	|    8    	| In series with 1 kΩ resistor 	|
+|      13     	|       D4      	|    6    	| In series with 1 kΩ resistor 	|
 
 <br>
 
